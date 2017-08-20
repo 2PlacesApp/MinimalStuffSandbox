@@ -1,0 +1,8 @@
+--- adb starting (pid 12701) ---
+adb I 08-20 15:44:06 12701 1018385 main.cpp:83] Android Debug Bridge version 1.0.39
+adb I 08-20 15:44:06 12701 1018385 main.cpp:83] Revision 3db08f2c6889-android
+adb I 08-20 15:44:06 12701 1018385 main.cpp:83] Installed as /usr/local/bin/adb
+adb I 08-20 15:44:06 12701 1018385 main.cpp:83] 
+adb I 08-20 15:44:06 12701 1018385 adb_auth_host.cpp:415] adb_auth_init...
+adb I 08-20 15:44:06 12701 1018385 adb_auth_host.cpp:173] read_key_file '/Users/deianmishev/.android/adbkey'...
+adb server killed by remote request
