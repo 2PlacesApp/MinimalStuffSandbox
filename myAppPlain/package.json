@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "clean-builds": "rm -rf ios/build/; rm -rf android/build/",
+    "clean-nodes": "watchman watch-del-all; npm cache clean",
+    "start-and-emu": "$ANDROID_HOME/tools/emulator -avd Nexus_5X_API_26_x86 -wipe-data",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
@@ -10,7 +13,8 @@
     "babel-preset-react-native": "2.1.0",
     "react": "16.0.0-alpha.12",
     "react-native": "0.47.1",
-    "react-native-maps": "*"
+    "react-native-google-maps": "^1.0.0",
+    "react-native-maps": "^0.16.3"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
